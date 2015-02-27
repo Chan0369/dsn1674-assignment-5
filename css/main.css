@@ -8,11 +8,17 @@ html {
 
 body {
   font-family: 'Merriweather', serif;
+  margin: 0em;
 }
 
+header {
+  background-color: #d05c2e;
+}
 h1 {
   font-weight: bold;
   text-align: center;
+  color: #fff;
+  margin:0;
 }
 
 nav {
@@ -32,9 +38,24 @@ nav ol a{
   padding: 0.5em;
 }
 
+nav li {
+  display: inline-block;
+  margin: 0.5em 0.125em 1em 0.125em;
+  padding: 0;
+}
+
+nav ol {
+  padding: 0;
+  margin: 0;
+}
+
+nav ol a:hover {
+  background-color: #a93f35;
+}
 .grains {
   float: left;
   width:25%;
+  margin: 0px 15px 15px 0px
 }
 
 .cereals {
@@ -42,7 +63,12 @@ nav ol a{
   width: 25%;
 }
 
-.quiona {
+.quinoa {
   float: right;
   width: 25%;
+  margin: 15px 0px 15px 15px
+}
+
+.clear-it {
+  clear: right;
 }

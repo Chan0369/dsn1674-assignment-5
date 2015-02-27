@@ -14,3 +14,35 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+
+nav {
+  text-align: center;
+}
+
+nav ol a{
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  border: 5px;
+  width: 5em;
+  background-color: #d05c2e;
+  padding: 0.5em;
+}
+
+.grains {
+  float: left;
+  width:25%;
+}
+
+.cereals {
+  float: right;
+  width: 25%;
+}
+
+.quiona {
+  float: right;
+  width: 25%;
+}

@@ -22,10 +22,6 @@ h1 {
   padding: 0.5em 1em 0.5em 0.75em;
 }
 
-.intro {
-  float: left;
-}
-
 nav {
   text-align: center;
 }
@@ -37,7 +33,6 @@ nav ol a{
   text-decoration: none;
   color: #fff;
   margin: 0;
-  border: 5px;
   width: 5em;
   background-color: #d05c2e;
   padding: 0.5em;
@@ -47,6 +42,7 @@ nav li {
   display: inline-block;
   margin: 0.5em 0.125em 1em 0.125em;
   padding: 0;
+  border: grey soild 1px;
 }
 
 nav ol {
@@ -54,9 +50,14 @@ nav ol {
   margin: 0;
 }
 
-nav ol a:hover {
+nav a:hover {
   background-color: #a93f35;
 }
+
+li {
+  border: 5px soild black;
+}
+
 .grains {
   float: left;
   width:25%;

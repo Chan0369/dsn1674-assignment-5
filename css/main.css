@@ -79,3 +79,20 @@ li {
 .clear-it {
   clear: right;
 }
+
+div {
+  background-color: #dc8252;
+}
+
+h2 {
+font-weight: bold;
+color: #fff
+}
+
+.cereals {
+  clear: center;
+}
+
+.corn {
+  width: 100%;
+}

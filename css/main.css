@@ -73,11 +73,15 @@ li {
 .quinoa {
   float: right;
   width: 25%;
-  margin: 10px 0px 10px 10px
+  margin: 10px 0px 10px 10px;
 }
 
 .clear-it {
   clear: right;
+}
+
+.p2 {
+  clear: left;
 }
 
 div {
@@ -86,13 +90,29 @@ div {
 
 h2 {
 font-weight: bold;
-color: #fff
+color: #fff;
+text-align: center;
 }
 
-.cereals {
+.famous-cereals {
   clear: center;
 }
 
 .corn {
   width: 100%;
+}
+
+.rice{
+  width: 50%;
+}
+
+.oats {
+  width: 50%;
+}
+
+footer {
+  background-color: #d05c2e;
+  padding: 1em 0em 1em 0em;
+  text-align: center;
+  color: #fff;
 }

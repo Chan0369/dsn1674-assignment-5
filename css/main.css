@@ -14,6 +14,21 @@ body {
 header {
   background-color: #d05c2e;
 }
+
+.left {
+  float: left;
+  width: 15%;
+  margin: 6.5px 0px 0px 0px;
+  padding: 0;
+}
+
+.right {
+  float: right;
+  width: 15%;
+  margin: 6.5px 0px 0px 0px;
+  padding: 0;
+}
+
 h1 {
   font-weight: bold;
   text-align: center;
@@ -24,6 +39,8 @@ h1 {
 
 nav {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 nav ol a{
@@ -36,6 +53,7 @@ nav ol a{
   width: 5em;
   background-color: #d05c2e;
   padding: 0.5em;
+  border: 1px solid #a93f35;
 }
 
 nav li {
@@ -53,28 +71,24 @@ nav a:hover {
   background-color: #a93f35;
 }
 
-li {
-  border: 5px soild black;
-}
-
 figure {
   margin: 0;
 }
 .grains {
   float: left;
-  width:35%;
+  width:33.3%;
   margin: 1em;
 }
 
 .cereals {
   float: right;
-  width: 35%;
+  width: 33.3%;
   margin: 1em;
 }
 
 .quinoa {
   float: right;
-  width: 35%;
+  width: 33.3%;
   margin: 1em;
 }
 

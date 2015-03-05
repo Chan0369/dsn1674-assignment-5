@@ -42,7 +42,7 @@ nav li {
   display: inline-block;
   margin: 0.5em 0.125em 1em 0.125em;
   padding: 0;
-  border: grey soild 1px;
+  border: #a93f35 soild 1px;
 }
 
 nav ol {
@@ -58,30 +58,39 @@ li {
   border: 5px soild black;
 }
 
+figure {
+  margin: 0;
+}
 .grains {
   float: left;
-  width:25%;
-  margin: 0px 10px 10px 0px
+  width:35%;
+  margin: 1em;
 }
 
 .cereals {
   float: right;
-  width: 25%;
-  margin: 10px 0px 10px 10px
+  width: 35%;
+  margin: 1em;
 }
 
 .quinoa {
   float: right;
-  width: 25%;
-  margin: 10px 0px 10px 10px;
+  width: 35%;
+  margin: 1em;
 }
 
 .clear-it {
   clear: right;
 }
 
+p {
+  padding: 1em;
+  margin: 0;
+}
+
 .p2 {
   clear: left;
+  margin: 0;
 }
 
 div {
@@ -92,22 +101,49 @@ h2 {
 font-weight: bold;
 color: #fff;
 text-align: center;
+margin: 0;
 }
 
 .famous-cereals {
   clear: center;
+  padding: 1em;
 }
 
 .corn {
   width: 100%;
 }
 
+.figcaption-corn {
+  color: white;
+  text-align: center;
+}
+
 .rice{
   width: 50%;
 }
 
+.figcaption-rice {
+  color: white;
+}
+
 .oats {
   width: 50%;
+}
+
+.figcaption-oats {
+  color: white;
+}
+
+.peanuts {
+  width: 25%;
+}
+
+.beans {
+  width: 25%;
+}
+
+.lentils {
+  width: 25%;
 }
 
 footer {

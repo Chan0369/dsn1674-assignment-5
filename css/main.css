@@ -13,7 +13,9 @@ body {
 
 header {
   background-color: #d05c2e;
-  padding: 0em 0em 2em;
+  padding: 0em;
+  overflow: hidden;
+  margin: 0;
 }
 
 .left {
@@ -72,9 +74,12 @@ nav a:hover {
   background-color: #a93f35;
 }
 
+
+
 figure {
   margin: 0;
 }
+
 .grains {
   float: left;
   width:33.3%;
@@ -103,16 +108,13 @@ figure {
 p {
   padding: 1em;
   margin: 0;
+  overflow: hidden;
 }
 
 .p2 {
   clear: left;
   margin: 0;
   padding: 1em;
-}
-
-figure {
-  background-color: #dc8252;
 }
 
 
@@ -125,8 +127,14 @@ margin: 0;
 background-color: #dc8252;
 }
 
+figure {
+  background-color: #dc8252;
+}
+
 .famous-cereals {
   clear: both;
+  overflow: hidden;
+  padding: 1em:
 }
 
 .fig-corn {
@@ -149,6 +157,7 @@ background-color: #dc8252;
 
 .figcaption-rice {
   color: white;
+  float: left;
 }
 
 .oats {
@@ -158,6 +167,7 @@ background-color: #dc8252;
 
 .figcaption-oats {
   color: white;
+  float: right;
 }
 
 
@@ -182,6 +192,7 @@ ul {
   list-style-type: none;
   padding-left: 0.5em;
   margin: 0;
+  overflow: hidden;
 }
 
 .peanuts-p, .beans-p, .lentils-p {

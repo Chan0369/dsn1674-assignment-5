@@ -106,8 +106,14 @@ figure {
 }
 
 p {
-  padding: 1em;
+  padding: 0;
   margin: 0;
+}
+
+.p1 {
+  clear: right;
+  margin: 0;
+  padding: 1em 1em 0.5em 1em;
 }
 
 .p2 {
@@ -163,7 +169,7 @@ figure {
   color: white;
   float: left;
   background-color: #dc8252;
-  padding: 0em 2em 2em 2em;
+  padding: 0.5em 2em 1.5em 2em;
   width: 50%;
   text-align: center;
 }
@@ -177,7 +183,7 @@ figure {
   color: white;
   float: right;
   background-color: #dc8252;
-  padding: 0em 2em 2em 2em;
+  padding: 0.5em 2em 1.5em 2em;
   width: 50%;
   text-align: center;
 }
@@ -189,18 +195,30 @@ h3 {
 }
 
 .peanuts {
-  width: 25%;
-  clear: right;
+  width: 28%;
+  clear: both;
+  float: left;
+  margin: 1em;
 }
 
 .beans {
-  width: 25%;
-  clear: right;
+  width: 28%;
+  clear: both;
+  float: left;
+  margin: 1em;
+
 }
 
 .lentils {
-  width: 25%;
-  clear: right;
+  width: 28%;
+  clear: both;
+  float: left;
+  margin: 1em;
+
+}
+
+em {
+  font-weight: bold;
 }
 
 ul {
@@ -209,12 +227,6 @@ ul {
   margin: 0;
   flost: right;
   clear: both;
-}
-
-dd {
-  float: right;
-  clear: both;
-  overflow: hidden;
 }
 
 .img-peanuts, .img-beans, .img-lentils {
@@ -227,4 +239,5 @@ footer {
   margin-top: 1em;
   text-align: center;
   color: #fff;
+  clear: both;
 }

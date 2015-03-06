@@ -13,7 +13,7 @@ body {
 
 header {
   background-color: #d05c2e;
-  padding: 0em;
+  padding: 0em
   overflow: hidden;
   margin: 0;
 }
@@ -44,6 +44,7 @@ h1 {
 
 nav {
   text-align: center;
+  overflow: hidden;
 }
 
 nav ol {
@@ -62,7 +63,6 @@ nav li {
 }
 
 nav a {
-  padding: 0;
   text-decoration: none;
   color: #fff;
   background-color: #d05c2e;
@@ -108,7 +108,6 @@ figure {
 p {
   padding: 1em;
   margin: 0;
-  overflow: hidden;
 }
 
 .p2 {
@@ -125,6 +124,7 @@ color: #fff;
 text-align: center;
 margin: 0;
 background-color: #dc8252;
+padding: 1em;
 }
 
 figure {
@@ -148,6 +148,10 @@ figure {
 .figcaption-corn {
   color: white;
   text-align: center;
+  background-color: #dc8252;
+  padding: 0em 1em 1em 1em;
+  width: 100%;
+  text-align: center;
 }
 
 .rice{
@@ -158,6 +162,10 @@ figure {
 .figcaption-rice {
   color: white;
   float: left;
+  background-color: #dc8252;
+  padding: 0em 2em 2em 2em;
+  width: 50%;
+  text-align: center;
 }
 
 .oats {
@@ -168,6 +176,10 @@ figure {
 .figcaption-oats {
   color: white;
   float: right;
+  background-color: #dc8252;
+  padding: 0em 2em 2em 2em;
+  width: 50%;
+  text-align: center;
 }
 
 
@@ -178,24 +190,34 @@ h3 {
 
 .peanuts {
   width: 25%;
+  clear: right;
 }
 
 .beans {
   width: 25%;
+  clear: right;
 }
 
 .lentils {
   width: 25%;
+  clear: right;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0.5em;
   margin: 0;
+  flost: right;
+  clear: both;
+}
+
+dd {
+  float: right;
+  clear: both;
   overflow: hidden;
 }
 
-.peanuts-p, .beans-p, .lentils-p {
+.img-peanuts, .img-beans, .img-lentils {
   float: left;
 }
 
